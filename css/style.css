@@ -16,7 +16,7 @@
     color: black; 
 }
 
-.navbar {
+.navbar sticky-top navbar-expand-lg navbar-light bg-light {
     background-color: #adadad;
     
 }
