@@ -1,0 +1,23 @@
+.container-fluid_top {
+    background: url("../img/fiji.jpg");
+    opacity: 0.7;
+    height: 300px;    
+}
+
+.row {
+    text-align:center;
+    opacity: 1;
+    color: white; 
+}
+
+.row1 {
+    text-align: center;
+    opacity: 1;
+    color: black; 
+}
+
+
+
+
+
+
