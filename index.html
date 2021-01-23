@@ -3,126 +3,78 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
+  
   <header>
-    <div class="container-fluid_top">
-      <div class="row">
-        <div class="col-sm">
-          <h1>RAVINTOLA SE JA SE</h1>
-        </div>
-      </div>
+    <div class="container_top">
+      <!-- h1 style="font-size:80px">RAVINTOLA SE JA SE</h1> -->
+      <img class="logo" src="img/logo.jpg">
     </div>
   </header> 
 
   <main>
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav navbar-inverse">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
+    <ul class="nav sticky-top justify-content-center navbar-light">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+      
+    <div class="wrapper">
+
+      <div class="boxleft">
+          
+          <h1>
+            Today:
+          </h1>
+          <img class="today" src="img/combination.webp">
+
       </div>
-    </nav>
 
-    <div class="row1">
-      <h2>Päivän menu:</h2>
-      <p>
-        Etiam eu est faucibus, rhoncus nisl sit amet, venenatis ante. Nam ultrices erat eu lacus suscipit egestas. 
-        Integer sollicitudin sit amet ligula vel pharetra. Nam sit amet cursus ipsum, at aliquet massa. 
-        Morbi porttitor ornare vulputate. Ut et ultrices mauris, a aliquam ante. Praesent luctus tortor id odio vehicula,
-        sit amet ullamcorper est consequat. Fusce venenatis, orci ut viverra pellentesque, erat est sodales tortor, 
-        eget accumsan enim tellus laoreet magna. Integer laoreet malesuada turpis, vitae vestibulum augue euismod consectetur. 
-        Pellentesque at pretium dui, in lacinia tortor. Sed interdum nulla sed quam malesuada sagittis a nec arcu. 
-        Vivamus sagittis, erat sit amet tempus pellentesque, sapien odio viverra dui, id semper eros erat vel mauris. 
-        Vestibulum venenatis lacus risus. Nam fermentum sed sem in gravida.
+      <div class="boxcenter">
+          <!-- Empty -->
+      </div>
 
-        Maecenas ex ipsum, posuere non ipsum ac, elementum vehicula lorem. In consectetur maximus dui, vel vulputate dui luctus vel. 
-        Nam accumsan nisl turpis, id suscipit erat vehicula a. Praesent dolor arcu, maximus at sapien facilisis, sagittis pharetra libero. 
-        Vivamus sagittis tempor imperdiet. Aenean non facilisis diam, quis aliquet nisi. In ut justo consectetur, molestie sem vel, 
-        imperdiet turpis. Praesent non vehicula mi, ut ultricies mauris. Nulla augue elit, tincidunt non mi ac, posuere faucibus lacus. 
-        Etiam viverra convallis leo a egestas. Mauris non leo at velit maximus varius. Vestibulum eget orci ante. 
-        Nunc id facilisis nulla, ac ultricies felis. Nulla sed metus at magna eleifend vulputate in eget enim.
-        
-        Quisque ut suscipit ligula. Phasellus vitae ipsum sed enim consectetur euismod. Mauris nec tellus eu lorem semper porttitor vitae pulvinar dui. 
-        Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus nec odio id nulla tempus finibus sit amet vitae orci. 
-        Nunc fringilla neque vitae enim mollis, a efficitur metus tincidunt. Vivamus ut tempor lorem. Nunc consectetur eros ut tortor malesuada 
-        condimentum eget imperdiet nulla. Nullam vulputate dui ut tortor sagittis, quis luctus odio rutrum. Sed quis finibus dolor. 
-        Nulla non velit tristique, sodales mi at, viverra arcu. Aenean in urna nisi. Ut non hendrerit lectus, eu interdum enim. 
+      <div class="boxright">
 
-        Etiam eu est faucibus, rhoncus nisl sit amet, venenatis ante. Nam ultrices erat eu lacus suscipit egestas. 
-        Integer sollicitudin sit amet ligula vel pharetra. Nam sit amet cursus ipsum, at aliquet massa. 
-        Morbi porttitor ornare vulputate. Ut et ultrices mauris, a aliquam ante. Praesent luctus tortor id odio vehicula,
-        sit amet ullamcorper est consequat. Fusce venenatis, orci ut viverra pellentesque, erat est sodales tortor, 
-        eget accumsan enim tellus laoreet magna. Integer laoreet malesuada turpis, vitae vestibulum augue euismod consectetur. 
-        Pellentesque at pretium dui, in lacinia tortor. Sed interdum nulla sed quam malesuada sagittis a nec arcu. 
-        Vivamus sagittis, erat sit amet tempus pellentesque, sapien odio viverra dui, id semper eros erat vel mauris. 
-        Vestibulum venenatis lacus risus. Nam fermentum sed sem in gravida.
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae egestas leo. 
+            Etiam ultricies, sem id fringilla sodales, nulla tortor laoreet turpis, a viverra nibh nibh ac turpis. 
+            Duis nec aliquam ipsum. Praesent a tincidunt tortor, eu semper lorem. 
+          </p>
+           
+          <p>
+            Donec nisl ante, tincidunt eget maximus vel, elementum non lectus. Sed nec ipsum nec neque mattis gravida et 
+            mollis enim. Etiam turpis sem, maximus in neque a, malesuada dictum justo. Vivamus vitae interdum nunc. 
+            Aenean metus purus, tristique vestibulum odio sed, posuere vehicula sapien. Aenean diam massa, 
+            dictum eu maximus varius, ornare in leo. Vestibulum egestas sapien at ex accumsan, at venenatis mi elementum.
+          </p>
 
-        Maecenas ex ipsum, posuere non ipsum ac, elementum vehicula lorem. In consectetur maximus dui, vel vulputate dui luctus vel. 
-        Nam accumsan nisl turpis, id suscipit erat vehicula a. Praesent dolor arcu, maximus at sapien facilisis, sagittis pharetra libero. 
-        Vivamus sagittis tempor imperdiet. Aenean non facilisis diam, quis aliquet nisi. In ut justo consectetur, molestie sem vel, 
-        imperdiet turpis. Praesent non vehicula mi, ut ultricies mauris. Nulla augue elit, tincidunt non mi ac, posuere faucibus lacus. 
-        Etiam viverra convallis leo a egestas. Mauris non leo at velit maximus varius. Vestibulum eget orci ante. 
-        Nunc id facilisis nulla, ac ultricies felis. Nulla sed metus at magna eleifend vulputate in eget enim.
-        
-        Quisque ut suscipit ligula. Phasellus vitae ipsum sed enim consectetur euismod. Mauris nec tellus eu lorem semper porttitor vitae pulvinar dui. 
-        Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus nec odio id nulla tempus finibus sit amet vitae orci. 
-        Nunc fringilla neque vitae enim mollis, a efficitur metus tincidunt. Vivamus ut tempor lorem. Nunc consectetur eros ut tortor malesuada 
-        condimentum eget imperdiet nulla. Nullam vulputate dui ut tortor sagittis, quis luctus odio rutrum. Sed quis finibus dolor. 
-        Nulla non velit tristique, sodales mi at, viverra arcu. Aenean in urna nisi. Ut non hendrerit lectus, eu interdum enim. 
+          <p>
+            Aliquam cursus in elit nec pulvinar. Maecenas non purus vel magna vulputate ornare ut eu velit. 
+            Fusce nisl nunc, sollicitudin vel ipsum at, mattis imperdiet velit. Nulla pretium, sem a scelerisque sagittis, 
+            dolor ante condimentum magna, vel consectetur massa elit ut velit.
+          </p>
 
-        Etiam eu est faucibus, rhoncus nisl sit amet, venenatis ante. Nam ultrices erat eu lacus suscipit egestas. 
-        Integer sollicitudin sit amet ligula vel pharetra. Nam sit amet cursus ipsum, at aliquet massa. 
-        Morbi porttitor ornare vulputate. Ut et ultrices mauris, a aliquam ante. Praesent luctus tortor id odio vehicula,
-        sit amet ullamcorper est consequat. Fusce venenatis, orci ut viverra pellentesque, erat est sodales tortor, 
-        eget accumsan enim tellus laoreet magna. Integer laoreet malesuada turpis, vitae vestibulum augue euismod consectetur. 
-        Pellentesque at pretium dui, in lacinia tortor. Sed interdum nulla sed quam malesuada sagittis a nec arcu. 
-        Vivamus sagittis, erat sit amet tempus pellentesque, sapien odio viverra dui, id semper eros erat vel mauris. 
-        Vestibulum venenatis lacus risus. Nam fermentum sed sem in gravida.
+      </div>
 
-        Maecenas ex ipsum, posuere non ipsum ac, elementum vehicula lorem. In consectetur maximus dui, vel vulputate dui luctus vel. 
-        Nam accumsan nisl turpis, id suscipit erat vehicula a. Praesent dolor arcu, maximus at sapien facilisis, sagittis pharetra libero. 
-        Vivamus sagittis tempor imperdiet. Aenean non facilisis diam, quis aliquet nisi. In ut justo consectetur, molestie sem vel, 
-        imperdiet turpis. Praesent non vehicula mi, ut ultricies mauris. Nulla augue elit, tincidunt non mi ac, posuere faucibus lacus. 
-        Etiam viverra convallis leo a egestas. Mauris non leo at velit maximus varius. Vestibulum eget orci ante. 
-        Nunc id facilisis nulla, ac ultricies felis. Nulla sed metus at magna eleifend vulputate in eget enim.
-        
-        Quisque ut suscipit ligula. Phasellus vitae ipsum sed enim consectetur euismod. Mauris nec tellus eu lorem semper porttitor vitae pulvinar dui. 
-        Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus nec odio id nulla tempus finibus sit amet vitae orci. 
-        Nunc fringilla neque vitae enim mollis, a efficitur metus tincidunt. Vivamus ut tempor lorem. Nunc consectetur eros ut tortor malesuada 
-        condimentum eget imperdiet nulla. Nullam vulputate dui ut tortor sagittis, quis luctus odio rutrum. Sed quis finibus dolor. 
-        Nulla non velit tristique, sodales mi at, viverra arcu. Aenean in urna nisi. Ut non hendrerit lectus, eu interdum enim. 
-      </p>
-    </div>
-
-    
   </main>
 
   <footer>
-              
+              <div>
+
+              </div>
   </footer>
   
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

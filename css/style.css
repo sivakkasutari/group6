@@ -1,23 +1,119 @@
-.container-fluid_top {
-    background: url("../img/fiji.jpg");
-    opacity: 0.7;
-    height: 300px;    
+@font-face {
+    src: url(../fonts/dS.ttf);
+    font-family: ds;
 }
 
-.row {
-    text-align:center;
-    opacity: 1;
-    color: white; 
+body {
+    padding:5px;
 }
 
-.row1 {
-    text-align: center;
-    opacity: 1;
-    color: black; 
+.container_top {
+    /*background: url("../img/fiji.jpg") fixed;*/
+    background-color:rgb(1, 78, 146);
+    opacity: 0.9;
+    height: 350px; 
+    flex: 1 1 0; /* incorporates flex-grow, flex-shrink, flex-basis */
+    text-align: center;   
+    color: gainsboro;
+    padding-top: 25px;
+    margin:5px;
+    margin-bottom:10px;
+    
 }
 
+.logo {
+    max-block-size: 300px;
+}
 
+ul {
+    padding: 5px;
+}
 
+.nav {
+    background-color:rgb(91, 136, 23);
+    flex:1 0 0;
+    margin:5px;
+    
+}
+
+.nav-link {
+    color: black;
+    font-family:ds;
+}
+
+.nav-item {
+    padding:20px;
+    padding-block:5px;;
+    font-size:50px;
+}
+
+.nav-item a:hover{
+    color:rgb(59, 2, 2);
+    background-color: rgb(185, 39, 61);
+}
+
+.wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    color: black;
+}
+
+.boxleft {
+    margin:5px;
+    padding-top:50px;
+    flex: 1 1 1300px;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    background-color:rgb(240, 157, 3);
+    color:black;
+    text-align:justify;
+}
+
+/*.boxcenter {
+    padding-top:100px;
+    flex: 1 1 1000px;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    background-color:rgb(240, 157, 3);
+    color:black;
+    font-size: 40px;
+    text-align:justify;
+}*/
+
+.boxright {
+    margin:5px;
+    padding-top:50px;
+    flex: 1 8 600px;
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+    background-color:rgb(0, 85, 160);
+    text-align:justify;
+   
+    
+}
+
+p {
+    padding-top:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: ds;
+    font-size:50px;
+}
+
+.today {
+    width:70%;
+    height:auto;
+    
+}
+
+h1 {
+    font-size:100px;
+    font-family:ds;
+}
 
 
 
