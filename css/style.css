@@ -21,6 +21,7 @@ body {
     padding-top:0px;
     margin:5px;
     margin-bottom:10px;
+
     justify-content:space-between;
     
 }
@@ -51,7 +52,6 @@ ul {
     background-color:rgb(91, 136, 23);
     flex:1 0 0;
     margin:5px;
-    
 }
 
 .nav-link {
@@ -113,7 +113,6 @@ p {
 .today {
     width:40%;
     height:auto;
-    
 }
 
 h1 {
