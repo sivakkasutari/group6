@@ -1,31 +1,51 @@
 @font-face {
     src: url(../fonts/dS.ttf);
-    font-family: ds;
+    font-family:ds;
 }
 
 body {
     padding:5px;
 }
 
-.container_top {
-    /*background: url("../img/fiji.jpg") fixed;*/
-    background-color:rgb(1, 78, 146);
-    opacity: 0.9;
-    height: 350px; 
+/*inside the heading: left, middle, right. 
+  they are needed to keep the opening hours, logo, and "empty" right box evenly spaced*/
+.heading {
+    background:url("../img/restaurant_inside_dark.jpg") center;
+    background-size:50%;
+    background-position-y:bottom;
+    opacity:1;
+    height:350px; 
     flex: 1 1 0; /* incorporates flex-grow, flex-shrink, flex-basis */
-    text-align: center;   
-    color: gainsboro;
-    padding-top: 25px;
+    display:flex;
+    color: white;
+    padding-top:0px;
     margin:5px;
     margin-bottom:10px;
+
+    justify-content:space-between;
+    
+}
+
+.left {
+    font-size: 50px;
+}
+
+.middle {
+    align-self:center;
+}
+
+/* huijaan muutamalla tekstin näkymättömäksi: muuten headerin elementit (left, middle, right) eivät pienenny tasaisesti*/
+.right {
+    opacity:0.0;
 }
 
 .logo {
-    max-block-size: 300px;
+    max-block-size:300px;
 }
 
+/*navbar elements start here*/
 ul {
-    padding: 5px;
+    padding:5px;
 }
 
 .nav {
@@ -41,52 +61,42 @@ ul {
 
 .nav-item {
     padding:20px;
-    padding-block:5px;;
+    padding-block:5px;
     font-size:50px;
 }
 
 .nav-item a:hover{
-    color:rgb(59, 2, 2);
+    color: black;
     background-color: rgb(185, 39, 61);
 }
 
-.wrapper {
-    flex-wrap: wrap;
-    display: flex;
-    color: black;
-}
-
-.boxleft {
+/*this is the main element with today's menu*/
+.boxMain {
     margin:5px;
     padding-top:50px;
-    flex: 1 1 1300px;
+    flex:1 1 1300px;
     flex-direction: column;
     display:flex;
-    align-items: center;
+    align-items:center;
     background-color:rgb(240, 157, 3);
     color:black;
     text-align:justify;
 }
 
-/*.boxcenter {
-    padding-top:100px;
-    flex: 1 1 1000px;
-    flex-direction: column;
-    display:flex;
-    align-items: center;
-    background-color:rgb(240, 157, 3);
-    color:black;
-    font-size: 40px;
-    text-align:justify;
-}*/
+/*image of today's dish inside boxMain*/
+.today {
+    width:40%;
+    height:auto;
+}
 
-.boxright {
+/*copyright text*/
+footer {
     margin:5px;
-    padding-top:50px;
-    flex: 1 8 600px;
+    padding-top:20px;
+    flex:1 0 600px;
     flex-direction:column;
     display:flex;
-    align-items: center;
+    align-items:flex-start;
     background-color:rgb(0, 85, 160);
     text-align:justify;
 }
@@ -101,7 +111,7 @@ p {
 }
 
 .today {
-    width:70%;
+    width:40%;
     height:auto;
 }
 
@@ -109,6 +119,16 @@ h1 {
     font-size:100px;
     font-family:ds;
 }
+
+h2 {
+    font-family:ds;
+    
+}
+
+.footerText {
+    font-size:40px;
+}
+
 
 
 
