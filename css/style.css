@@ -24,9 +24,11 @@ body {
     
 }
 
+/*	muutin aukioloaikoja näkyvämmiks pistämällä varjon + siirsin pois sivun ihan reunasta */
 .left {
     font-size: 50px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 1px 1px #000000;
+	padding-left: 10px;
 }
 
 .middle {
