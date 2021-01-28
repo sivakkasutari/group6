@@ -35,7 +35,6 @@ body {
     align-self:center;
 }
 
-/* huijaan muutamalla tekstin näkymättömäksi: muuten headerin elementit (left, middle, right) eivät pienenny tasaisesti*/
 .right {
     opacity:0.0;
 }

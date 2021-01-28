@@ -1,136 +1,154 @@
 @font-face {
-    src: url(../fonts/dS.ttf);
-    font-family:ds;
+  src: url(../fonts/dS.ttf);
+  font-family: ds;
 }
 
 body {
-    padding:5px;
+  padding: 5px;
 }
 
 /*inside the heading: left, middle, right. 
   they are needed to keep the opening hours, logo, and "empty" right box evenly spaced*/
 .heading {
-    background:url("../img/restaurant_inside_dark.jpg") center;
-    background-size:50%;
-    background-position-y:bottom;
-    opacity:1;
-    height:350px; 
-    flex: 1 1 0; /* incorporates flex-grow, flex-shrink, flex-basis */
-    display:flex;
-    color: white;
-    padding-top:0px;
-    margin:5px;
-    justify-content:space-between;
-    
+  background: url("../img/restaurant_inside_dark.jpg") center;
+  background-size: 50%;
+  background-position-y: bottom;
+  opacity: 1;
+  height: 350px;
+  flex: 1 1 0; /* incorporates flex-grow, flex-shrink, flex-basis */
+  display: flex;
+  color: white;
+  padding-top: 0px;
+  margin: 5px;
+  justify-content: space-between;
 }
 
 /*	muutin aukioloaikoja näkyvämmiks pistämällä varjon + siirsin pois sivun ihan reunasta */
 .left {
-    font-size: 50px;
-    text-shadow: 1px 1px #000000;
-	padding-left: 10px;
+  font-size: 50px;
+  text-shadow: 1px 1px #000000;
+  padding-left: 10px;
 }
 
 .middle {
-    align-self:center;
+  align-self: center;
 }
 
-/* huijaan muutamalla tekstin näkymättömäksi: muuten headerin elementit (left, middle, right) eivät pienenny tasaisesti*/
 .right {
-    opacity:0.0;
+  opacity: 0;
 }
 
 .logo {
-    max-block-size:300px;
+  max-block-size: 300px;
 }
 
 /*navbar elements start here*/
 ul {
-    padding:5px;
+  padding: 5px;
 }
 
 .nav {
-    background-color:rgb(91, 136, 23);
-    flex:1 0 0;
-    margin:5px;
+  background-color: rgb(91, 136, 23);
+  flex: 1 0 0;
+  margin: 5px;
 }
 
 .nav-link {
-    color: black;
-    font-family:ds;
+  color: black;
+  font-family: ds;
 }
 
 .nav-item {
-    padding:20px;
-    padding-block:5px;
-    font-size:50px;
+  padding: 20px;
+  padding-block: 5px;
+  font-size: 50px;
 }
 
-.nav-item a:hover{
-    color: black;
-    background-color: rgb(185, 39, 61);
+.nav-item a:hover {
+  color: black;
+  background-color: rgb(185, 39, 61);
 }
 
 /*this is the main element with today's menu*/
 .boxMain {
-    margin:5px;
-    padding-top:50px;
-    flex:1 1 1300px;
-    flex-direction: column;
-    display:flex;
-    align-items:center;
-    background-color:rgb(240, 157, 3);
-    color:black;
-    text-align:justify;
+  margin: 5px;
+  padding-top: 50px;
+  flex: 1 1 1300px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 157, 3);
+  color: black;
+  text-align: justify;
 }
 
 /*image of today's dish inside boxMain*/
 .today {
-    width:40%;
-    height:auto;
+  width: 40%;
+  height: auto;
 }
 
 /*copyright text*/
 footer {
-    margin:5px;
-    padding-top:20px;
-    flex:1 0 600px;
-    flex-direction:column;
-    display:flex;
-    align-items:flex-start;
-    background-color:rgb(0, 85, 160);
-    text-align:justify;
+  
 }
 
 p {
-    padding-top:50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-family: ds;
-    font-size:50px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-family: ds;
+  font-size: 50px;
 }
 
 .today {
-    width:40%;
-    height:auto;
+  width: 40%;
+  height: auto;
 }
 
 h1 {
-    font-size:100px;
-    font-family:ds;
+  font-size: 100px;
+  font-family: ds;
 }
 
 h2 {
-    font-family:ds;
-    
+  font-family: ds;
 }
 
-.footerText {
-    font-size:40px;
+/* footer contains the copyright and social media links */
+footer {
+  margin: 5px;
+  background-color: rgb(0, 85, 160);
+  display: flex;
+  justify-content: space-between;
 }
 
+footer ul {
+  list-style-type: none;
+  display: flex;
+}
 
+footer li {
+  font-size: 30px;
+  color: black;
+  padding: 10px;
+}
 
+footer a {
+  text-decoration: none;
+  color: black;
+}
 
-
+@media screen and (min-width: 601px) { /* scales text to wide screen */
+	h1 {
+		font-size:100px;
+		font-family:ds;
+	}
+}
+@media screen and (max-width: 600px) { /* scales text to mobile screen */
+	h1 {
+		font-size:60px;
+		font-family:ds;
+	}
+}
