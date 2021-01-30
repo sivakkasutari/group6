@@ -74,7 +74,7 @@ ul {
 }
 
 /*this is the main element with today's menu*/
-.boxMain {
+.LAATIKKO {
   margin: 5px;
   padding-top: 50px;
   flex: 1 1 1300px;
@@ -82,7 +82,7 @@ ul {
   display: flex;
   align-items: center;
   background-color: rgb(240, 157, 3);
-  color: black;
+  color: white;
   text-align: justify;
 }
 
