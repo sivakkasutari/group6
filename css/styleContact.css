@@ -1,13 +1,7 @@
 
 
 
-nav {
-  float: left;
-  width: 30%;
-font-size: 25px;
-  background: lightgrey;
-  padding: 150px;
-}
+
 
 article {
   float: left;
@@ -24,10 +18,3 @@ section::after {
   clear: both;
 }
 
-footer {
-  background-color: grey;
-  
-  text-align: center;
-  color: black;
-  
-}
