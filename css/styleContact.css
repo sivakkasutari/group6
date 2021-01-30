@@ -75,6 +75,7 @@ ul {
 
 /*this is the main element with today's menu*/
 .LAATIKKO {
+padding: 5px;	
   margin: 5px;
   padding-top: 50px;
   flex: 1 1 1300px;
