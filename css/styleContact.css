@@ -145,8 +145,6 @@ footer a {
   color: black;
 }
 
-
-
 @media screen and (min-width: 601px) { /* scales text to wide screen */
 	h1 {
 		font-size:100px;
@@ -159,3 +157,4 @@ footer a {
 		font-family:ds;
 	}
 }
+	
