@@ -149,7 +149,6 @@ nav2 {
   float: left;
   width: 30%;
 font-size: 25px;
-  background: lightgrey;
   padding: 150px;
 }
 section::after {
@@ -161,7 +160,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: white;
+
 
 
 }
