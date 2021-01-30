@@ -145,6 +145,13 @@ footer a {
   color: black;
 }
 
+nav2 {
+  float: left;
+  width: 30%;
+font-size: 25px;
+  background: lightgrey;
+  padding: 150px;
+}
 section::after {
   content: "";
   display: table;
