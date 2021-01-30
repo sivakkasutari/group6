@@ -2,7 +2,6 @@
 
 
 
-
 @font-face {
   src: url(../fonts/dS.ttf);
   font-family: ds;
@@ -77,18 +76,6 @@ ul {
 /*this is the main element with today's menu*/
 .boxMain {
   margin: 5px;
-  padding-top: 0px;
-  flex: 1 1 1300px;
-  flex-direction: column;
-  display: flex;
-  align-items: left;
-  background-color: rgb(240, 157, 3);
-  color: black;
-  text-align: left;
-}
-
-.maini {
-  margin: 5px;
   padding-top: 50px;
   flex: 1 1 1300px;
   flex-direction: column;
@@ -98,6 +85,7 @@ ul {
   color: black;
   text-align: justify;
 }
+
 /*image of today's dish inside boxMain*/
 .today {
   width: 40%;
@@ -168,4 +156,3 @@ footer a {
 		font-family:ds;
 	}
 }
-	
