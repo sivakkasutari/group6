@@ -125,6 +125,13 @@ h2 {
   font-family: ds;
 }
 
+pre {
+  display: block;
+  white-space: pre;
+  margin: 1em 0;
+  font-size: 25px;
+} 
+
 /* footer contains the copyright and social media links */
 footer {
   margin: 5px;
