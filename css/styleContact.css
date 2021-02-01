@@ -1,7 +1,6 @@
 
 
 
-
 @font-face {
   src: url(../fonts/dS.ttf);
   font-family: ds;
@@ -74,8 +73,7 @@ ul {
 }
 
 /*this is the main element with today's menu*/
-.LAATIKKO {
-padding: 5px;	
+.boxMain {
   margin: 5px;
   padding-top: 50px;
   flex: 1 1 1300px;
@@ -83,7 +81,7 @@ padding: 5px;
   display: flex;
   align-items: center;
   background-color: rgb(240, 157, 3);
-  color: white;
+  color: black;
   text-align: justify;
 }
 
@@ -105,14 +103,6 @@ p {
   padding-bottom: 20px;
   font-family: ds;
   font-size: 50px;
-}
-p2 {
-  padding-top: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  font-family: ds;
-  font-size: 15px;
 }
 
 .today {
