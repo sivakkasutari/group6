@@ -82,18 +82,19 @@ body {
     flex:1 1 1300px;
     flex-direction: column;
     display:flex;
-    
     background-color:rgb(217, 176, 102);
     color:black;
     text-align:justify;
 }  
 figure {
     float: right;
-    margin: 20px;
     padding: 20px;
+    max-width: 100%;
+    height: auto;
 }
 p {
     padding-left: 20px;
+    padding-right: 20px;
 }
 footer {
     margin: 5px;
